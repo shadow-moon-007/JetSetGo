@@ -66,49 +66,49 @@ function FlightSearch({ flights }) {
   };
 
   return (
-    <form onSubmit={handleSubmit}>
-      <TextField
-        label="Origin"
-        name="origin"
-        value={origin}
-        onChange={handleInputChange}
-        margin="normal"
-        fullWidth
+   <form onSubmit={handleSubmit}>
+    //  <TextField
+    //    label="Origin"
+     //   name="origin"
+     //   value={origin}
+    //    onChange={handleInputChange}
+    //    margin="normal"
+    //    fullWidth
         // Style for dark input field
-        sx={{
-          '& .MuiInputBase-root': {
-            backgroundColor: '#222',
-            color: '#fff',
-          },
-          '& .MuiOutlinedInput-input': {
-            '&::placeholder': {
-              color: '#ccc',
-              opacity: 1,
-            },
-          },
-        }}
-      />
-      <TextField
-        label="Destination"
-        name="destination"
-        value={destination}
-        onChange={handleInputChange}
-        margin="normal"
-        fullWidth
-        // Apply the same style for dark input field
-        sx={{
-          '& .MuiInputBase-root': {
-            backgroundColor: '#222',
-            color: '#fff',
-          },
-          '& .MuiOutlinedInput-input': {
-            '&::placeholder': {
-              color: '#ccc',
-              opacity: 1,
-            },
-          },
-        }}
-      />
+    //    sx={{
+    //      '& .MuiInputBase-root': {
+    //        backgroundColor: '#222',
+    //        color: '#fff',
+    //      },
+   //      '& .MuiOutlinedInput-input': {
+     //       '&::placeholder': {
+    //          color: '#ccc',
+    //          opacity: 1,
+   //         },
+   //       },
+  //      }}
+  //    />
+   //   <TextField
+   //     label="Destination"
+   //     name="destination"
+   //     value={destination}
+   //     onChange={handleInputChange}
+   //     margin="normal"
+   //     fullWidth
+  //     
+   //     sx={{
+    //      '& .MuiInputBase-root': {
+   //         backgroundColor: '#222',
+   //         color: '#fff',
+  //       },
+//          '& .MuiOutlinedInput-input': {
+ //           '&::placeholder': {
+ //             color: '#ccc',
+//              opacity: 1,
+//            },
+//          },
+//        }}
+ //     />
       <InputLabel id="airline-filter-label">Filter by Airline</InputLabel>
       <Select
         labelId="airline-filter-label"
